@@ -1,0 +1,6 @@
+numpy
+pandas 
+scipy.stats
+autograd
+joblib
+autograd.numpy
