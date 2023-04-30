@@ -1,6 +1,7 @@
 numpy
 pandas 
-scipy.stats
+scipy
 autograd
 joblib
-autograd.numpy
+scikit-learn
+matplotlib
