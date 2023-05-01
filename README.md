@@ -26,10 +26,48 @@ Temos à nossa disposição um conjunto de dados para [predição de AVCs](https
 
 ---> Explicação aprofundada do modelo e sua implementação em demo.ipynb
 
+Considerando: 
+
+$$
+f(x,y) = Ax + By + C
+$$
+
+Onde a equação f(x,y) = Ax + By + C é uma equação linear multivariável, onde x e y são as features, A e B são os pesos que multiplicam as features e C é o intercepto (ou "viés")
+
+Podemos fazer formulação matricial da equação linear para entrada de i dimensões:
+
+
+$$
+f(\boldsymbol x) = b + \sum_n w_n x_n = \begin{bmatrix} w_0 & w_1 & ... & w_{N-1} \end{bmatrix} \begin{bmatrix} x_0 \\ x_1 \\ ... \\ x_{N-1} \end{bmatrix} + b = \boldsymbol w^T \boldsymbol x + b
+$$
+
+Onde x e y são as features passam a ser representados por i features no vetor ou matriz featurs:
+
+$$
+features = \begin{bmatrix}
+x_0 \\ x_1 \\ ... \\ x_{N-1}
+\end{bmatrix}
+\hspace{0.5in}
+$$
+
+E os antigos pesos A e B, passam a ser representados pro i pesos no vetor ou matriz W
+
+$$
+W = \begin{bmatrix}
+w_0 & w_1 & ... & w_{N-1}\\
+\end{bmatrix}
+\hspace{0.5in}
+$$
+
+
+
+
 
 
 X <-- Features que serão utilizadas no modelo
 Y <-- Target 
+
+
 
 
 
