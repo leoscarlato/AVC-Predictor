@@ -6,9 +6,9 @@ Neste projeto, vamos usar classificadores para identificar *quais são os fatore
 
 Temos à nossa disposição um conjunto de dados para [predição de AVCs](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset). O que faremos é:
 
-1. Treinar um classificador para predizer se houve ou não houve AVCs
-1. Verificar a acurácia do classificador
-1. Identificar quais são os fatores que mais provavelmente estão ligados a ter AVCs
+1. Treinar dois classificadores para predizer se houve ou não houve AVCs.
+2. Verificar a acurácia dos classificadores.
+3. Identificar quais são os fatores que mais provavelmente estão ligados a ter AVCs, dados pelos modelos. E conferir se de fato são reconhecidos no meio acadêmico.
 
 ## Metodologia utilizada
 
@@ -19,6 +19,25 @@ Temos à nossa disposição um conjunto de dados para [predição de AVCs](https
 - Conversão de variáveis categóricas em variáveis numéricas
 
 <br>
+
+## Modelos
+
+### Modelo de classificação linear
+
+---> Explicação aprofundada do modelo e sua implementação em demo.ipynb
+
+
+
+X <-- Features que serão utilizadas no modelo
+Y <-- Target 
+
+
+
+### Modelo de classificação DecisionTreeClassifier
+
+
+---> Explicação aprofundada do modelo e sua implementação em demo.ipynb
+
 
 **Definição da função de perda**: é definida uma função de perda que mede a diferença entre a previsão do modelo e o valor real da variável de resposta. A função de perda é uma função de quatro parâmetros: os pesos (w), o viés (b), os pontos (ou dados) e os valores reais da variável de resposta e retorna o erro quadrático médio (EQM).
 
