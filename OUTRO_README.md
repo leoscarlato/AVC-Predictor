@@ -74,7 +74,7 @@ De acordo com os resultados obtidos, os 3 fatores que mais influenciam na probab
 
 <br>
 
-De acordo com o site da Sociedade Brasileira de AVC (link no final do arquivo), dentre os fatores que são listados como potenciais causadores de AVC, se encontram os mesmos fatores que foram identificados pelo modelo:
+De acordo com o site da **Sociedade Brasileira de AVC** (link no final do arquivo), dentre os fatores que são listados como potenciais causadores de AVC, se encontram os mesmos fatores que foram identificados pelo modelo:
 
 - Doença cardíaca:
 
@@ -91,7 +91,7 @@ De acordo com o site da Sociedade Brasileira de AVC (link no final do arquivo), 
 
 <br>
 
-Desta maneira, pode-se concluir que o modelo foi capaz de identificar os fatores de risco para AVCs de maneira satisfatória.
+Desta maneira, pode-se concluir que **o modelo foi capaz de identificar os fatores de risco para AVCs de maneira satisfatória**, já que os fatores identificados pelo modelo como sendo os mais influenciam a probabilidade de uma pessoa ter um AVC são os mesmos que são listados como potenciais causadores de AVCs no site da **Sociedade Brasileira de AVC**.
 
 <br>
 
