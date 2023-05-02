@@ -1,5 +1,7 @@
 # AVC Predictor
 
+O código principal do projeto se encontra no arquivo **main.ipynb**
+
 ## Descrição do projeto
 Neste projeto, vamos usar classificadores para identificar *quais são os fatores de risco para o acidente vascular cerebral (AVC)*.
 
